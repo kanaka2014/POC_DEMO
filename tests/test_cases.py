@@ -18,6 +18,6 @@ def test_load_df():
     train_arr,test_arr,_=data_transformation.initiate_data_transformation(train_data,test_data)
     assert train_arr.shape==(800, 20)
     assert test_arr.shape==(200, 20)
-
-
+    print("tests done")
+test_load_df()
     
